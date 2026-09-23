@@ -8,7 +8,7 @@ app.get('/', function(req, res) {
 
 app.get('/health', function(req, res) {
   res.json({
-    ststus: 'ok',
+    status: 'ok',
     branch: 'staging',
     timestamp: new Date().toISOString()
 });
